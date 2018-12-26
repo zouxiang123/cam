@@ -1,0 +1,66 @@
+//颜色
+$white: #FFFFFF;
+$red: #F75B5B;
+$blue: #31AAFF;
+$grey: #D9E0E6;
+$grey_5: rgba(217,224,230,0.5);
+$black: #484848;
+$black_5: rgba(72,72,72,0.5);
+$yellow: #F19D1D;
+$green: #3dcd80;
+$close: #484848;
+$active: #31AAFF;
+
+//大小
+$initsize: 14px;
+$radius: 3px;
+
+//字体
+$initfont: "Helvetica Neue","Microsoft YaHei", Helvetica, Arial, sans-serif;
+
+//边框
+$solid: 1px solid $grey;
+$dashed: 1px dashed $grey;
+$dotted: 1px dotted $grey;
+
+//mixin
+@mixin opacity($opacity:0.5) {
+  opacity: $opacity;
+  filter: alpha(opacity=$opacity * 100);
+}
+@mixin scale($scale:0){
+	-webkit-transform: scale($scale);
+    -moz-transform:scale($scale);
+    transform: scale($scale);
+}
+@mixin rotate($rotate:0deg){
+	-webkit-transform: rotate($rotate);
+    -moz-transform: rotate($rotate);
+    transform:rotate($rotate);
+}
+@mixin property($property:transform){
+	-webkit-transition-property:$property;
+    transition-property:$property;
+}
+@mixin duration($duration:0.2s){
+	-webkit-transition-duration: $duration;
+    transition-duration: $duration;
+}
+@mixin ellipsis{
+	white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+//不能选中文字
+@mixin select{
+    -o-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+//真实宽高
+@mixin sizing{
+    webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}

@@ -1,0 +1,590 @@
+body {
+    font-family: 'SimSun','Microsoft YaHei';
+}
+
+.pagenext {
+    page-break-after: always;
+}
+
+.center {
+    text-align: center;
+}
+.m-r-16 {
+    margin-right: 16px !important;
+}
+
+.m-l-16 {
+    margin-left: 16px !important;
+}
+
+.m-t-16 {
+    margin-top: 16px !important;
+}
+
+.m-b-16 {
+    margin-bottom: 16px !important;
+}
+
+.title-22 {
+    font-family: 'Microsoft YaHei','SimSun';
+    font-size: 22px;
+}
+
+.title-18 {
+    font-family: 'Microsoft YaHei','SimSun';
+    font-size: 18px;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.v-a-b {
+    vertical-align: bottom;
+}
+
+input[type=radio],input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox] + label,
+input[type=radio] + label {
+    font-weight: normal;
+    min-width: 140px;
+    margin-right: 18px;
+}
+
+.m-t-16 {
+    margin-top: 16px;
+}
+
+.m-b-16 {
+    margin-bottom: 16px;
+}
+
+input[type=checkbox] + label:before,
+input[type=radio] + label:before {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    content: "";
+    background: url('../img/print/unchecked.png');
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    margin-right: 15px;
+}
+
+input[type=checkbox]:checked + label:before,
+input[type=radio]:checked + label:before {
+    content: "";
+    background: url('../img/print/checked.png');
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+}
+
+.print-bg {
+    width: 100%;
+    height: 48px;
+}
+
+.print-under-line {
+    border-bottom: 1px solid #000;
+}
+
+thead > tr {
+    background: #f2f2f2;
+}
+
+.p-48 {
+    margin-top: -48px;
+}
+.fc-grey {
+    color: #484848;
+    opacity: .7;
+}
+.notprint {
+    background: #fff;
+    text-align: center;
+    outline: none;
+    min-width: 112px;
+    height: 48px;
+    line-height: 48px;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 1px solid #d9e0e6;
+    font-size: 22px;
+    color: #484848;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+.notprint:hover,
+.notprint:focus {
+    background: #31AAFF;
+    color: #fff;
+}
+.print-layout {
+    width: 1240px;
+    height: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.20);
+}
+
+.print-main {
+    clear: both;
+    background: #fff;
+    font-size: 20px;
+    line-height: 1;
+    color: #000;
+}
+
+.print-header {
+    width: 100%;
+    height: 120px;
+}
+
+.print-header2 {
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.print-logo {
+    /*width: 300px;*/
+    height: 120px;
+}
+
+.print-title {
+    font-weight: bold;
+    font-family: 'Microsoft YaHei','SimSun';
+    margin-top: -88px;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.print-title2 {
+    font-weight: bold;
+    font-family: 'Microsoft YaHei','SimSun';
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.print-title3 {
+    font-weight: bold;
+    font-family: 'Microsoft YaHei','SimSun';
+    margin-top: -75px;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.b-t-l {
+    border-top: 1px solid #000;
+}
+
+.print-line {
+    width: 100%;
+    height: 1px;
+}
+.bottomline {
+    border-bottom: 1px dashed #d9e0e6;
+}
+.bottomline-1 {
+    border-bottom: 1px solid #d9e0e6;
+}
+.col-1 {
+  width: 100%;
+}
+
+.col-2 {
+    width: 47.7%;
+}
+
+.col-3 {
+    width: 30.9%;
+}
+
+.col-4 {
+    width: 22.49%;
+}
+
+.col-5 {
+    width: 17.5%;
+}
+
+.col-6 {
+    width: 14.1%;
+}
+
+.col-7 {
+    width: 11.7%;
+}
+
+.col-8 {
+    width: 9.9%;
+}
+
+.col-9 {
+    width: 8.5%;
+}
+
+.col-10 {
+  width: 7.4%;
+}
+
+.print-item {
+    width: 100%;
+    height: auto;
+    padding-left: 15px;
+}
+
+.item-48 {
+    height: 48px;
+}
+
+.print-item span {
+    line-height: 48px;
+}
+
+.print-item .sub-title {
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.min-width-330 {
+    min-width: 330px;
+}
+
+.img-checkbox {
+    width: 15px;
+    height: 15px;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+label {
+    font-weight: normal;
+    min-width: 80px;
+    margin-right: 18px;
+}
+
+.table {
+    margin-bottom: 0;
+    border: 1px solid #000;
+    border-color: black;
+}
+
+thead {
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+th,td {
+    border: 1px solid #000;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 1;
+    color: #000;
+    text-align: center;
+    padding: 0;
+}
+
+td {
+    font-size: 16px;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.table>thead>tr>th {
+    vertical-align: middle;
+    border-bottom: 0px solid #000;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.3;
+    vertical-align: middle;
+    border-top: 1px solid #000 !important;
+}
+
+.table > thead > tr > th > span {
+    display: inline-block;
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    border-bottom: 1px solid #000;
+}
+
+.table > thead > tr > th > div > span {
+    display: inline-block;
+    width: 65px;
+    height: 120px;
+    padding-top: 8px;
+    border-right: 1px solid #000;
+}
+
+.table > thead > tr > th > div > span:last-child {
+    border-right: 0px solid #000;
+}
+
+.table > thead > tr > th > div {
+    width: 100%;
+}
+
+.p-0 {
+    padding: 0px;
+}
+
+th p{
+    font-size: 16px;
+}
+
+.col-xt-12 {
+    width: 100%;
+}
+.col-xt-11 {
+    width: 91.66666667%;
+}
+.col-xt-10 {
+    width: 83.33333333%;
+}
+.col-xt-9 {
+    width: 75%;
+}
+.col-xt-8 {
+    width: 66.66666667%;
+}
+.col-xt-7 {
+    width: 58.33333333%;
+}
+.col-xt-6 {
+    width: 50%;
+}
+.col-xt-5 {
+    width: 41.66666667%;
+}
+.col-xt-4 {
+    width: 33.33333333%;
+}
+.col-xt-3 {
+    width: 25%;
+}
+.col-xt-2 {
+    width: 16.66666667%;
+}
+.col-xt-1 {
+    width: 8.33333333%;
+}
+.u-button {
+    min-width: 75px;
+    height: 35px;
+    line-height: 34px;
+    font-size: 18px;
+}
+.fill-parent {
+    width: 100%;
+    height: auto;
+}
+
+@media print {
+    .img-checkbox {
+        width: 2.54mm;
+        height: 2.54mm;
+        margin-top: -0.85mm;
+        margin-right: 1.69mm;
+    }
+
+    label {
+        font-weight: normal;
+        min-width: 13.56mm;
+        margin-right: 3.05mm;
+    }
+
+    input[type=checkbox] + label,
+    input[type=radio] + label {
+        font-weight: normal;
+        min-width: 23.72mm;
+        margin-right: 3.05mm;
+    }
+
+    .m-t-16 {
+        margin-top: 2.71mm;
+    }
+
+    .m-b-16 {
+        margin-bottom: 2.71mm;
+    }
+
+    input[type=checkbox] + label:before,
+    input[type=radio] + label:before {
+        display: inline-block;
+        width: 2.71mm;
+        height: 2.71mm;
+        content: "";
+        background: url('../img/print/unchecked.png');
+        background-repeat: no-repeat;
+        background-size: 2.54mm 2.54mm;
+        margin-right: 2.54mm;
+    }
+
+    input[type=checkbox]:checked + label:before,
+    input[type=radio]:checked + label:before {
+        content: "";
+        background: url('../img/print/checked.png');
+        background-repeat: no-repeat;
+        background-size: 2.54mm 2.54mm;
+    }
+
+    .print-layout {
+        width: 210mm;
+        height: auto;
+        padding-left: 8.47mm;
+        padding-right: 8.47mm;
+        box-shadow: none;
+    }
+
+    .print-main {
+        background: #fff;
+        font-size: 3.39mm;
+        line-height: 1;
+        color: #000;
+    }
+
+    th,td {
+        font-size: 3.39mm;
+        line-height: 1;
+        color: #000;
+    }
+
+    .print-header {
+        width: 100%;
+        height: 20.506mm;
+    }
+
+    .print-header2 {
+        width: 100%;
+        height: 6.8353333333mm;
+        margin-top: 0.85mm;
+        margin-bottom: 0.85mm;
+    }
+
+    .print-logo {
+        /*width: 50.85mm;*/
+        height: 20.34mm;
+    }
+
+    .print-title {
+        margin-top: -14.92mm;
+        font-size: 4.07mm;
+        line-height: 5.59mm;
+    }
+    .print-title2 {
+        font-size: 4.07mm;
+        line-height: 5.59mm;
+    }
+    .print-title3 {
+        margin-top: -12.7016mm;
+        font-size: 4.7419mm;
+        line-height: 5.59mm;
+    }
+
+    .title-22 {
+        font-size: 3.85mm;
+    }
+
+    .title-18 {
+        font-size: 3.048mm;
+    }
+
+    .print-line {
+        width: 100%;
+        height: 0.265mm;
+    }
+
+    .print-item {
+        width: 100%;
+        height: auto;
+        padding-left: 2.54mm;
+    }
+
+    .item-48 {
+        height: 8.14mm;
+    }
+
+    .print-item span {
+        line-height: 8.14mm;
+    }
+
+    .print-item .sub-title {
+        margin-right: 3.39mm;
+        display: inline-block;
+    }
+
+    .min-width-330 {
+        min-width: 55.93mm;
+    }
+
+    .p-0 {
+        padding: 0mm;
+    }
+
+    .print-bg {
+        width: 100%;
+        height: 8.14mm;
+    }
+
+    .p-48 {
+        margin-top: -8.14mm;
+    }
+
+    .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+        padding-left: 2.54mm;
+    }
+
+    .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+        padding: 1.356mm;
+    }
+
+    .table > thead > tr > th > span {
+        display: inline-block;
+        width: 100%;
+        height: 8.14mm;
+        line-height: 8.14mm;
+    }
+
+    .table > thead > tr > th > div > span {
+        display: inline-block;
+        width: 9mm;
+        height: 20.33898mm;
+        padding-top: 1.35593mm;
+    }
+
+    th p,
+    td {
+        font-size: 2.7118mm;
+    }
+
+    .bottomline {
+        border-bottom: 0.1mm dashed #000;
+    }
+    .bottomline-1 {
+        border-bottom: 0.1mm solid #000;
+    }
+   .notprint {
+       display: none;
+   }
+}

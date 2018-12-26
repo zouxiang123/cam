@@ -1,0 +1,186 @@
+/*checkbox和radio*/
+label {
+    cursor: pointer;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+input[type=radio],input[type=checkbox] {
+    display: none;
+}
+label input[type=radio],label input[type=checkbox] {
+    display: inherit;
+}
+
+input[type=radio]:focus,
+input[type=checkbox]:focus {
+    outline: none;
+}
+label input[type=radio],label input[type=checkbox],
+input[type=radio] + label:before,
+input[type=checkbox] + label:before {
+    display: inline-block;
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-bottom: 3px;
+    margin-right: 3px;
+    content: "";
+    background: url('../../img/radio1.png');
+    background-repeat: no-repeat;
+}
+
+/*复选按钮*/
+label input[type=checkbox].u-checkbox-1,
+input[type=checkbox].u-checkbox-1 + label:before {
+    width: 15px;
+    height: 15px;
+    background: url('../../img/checkbox1.png');
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+}
+label input[type=checkbox].u-checkbox-1:checked,
+input[type=checkbox].u-checkbox-1:checked+ label:before  {
+    width: 15px;
+    height: 15px;
+    background: url('../../img/checkbox-checked1.png');
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+}
+
+label input[type=checkbox].u-checkbox-2,
+input[type=checkbox].u-checkbox-2 + label:before {
+    width: 18px;
+    height: 18px;
+    background: url('../../img/checkbox1.png');
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+}
+label input[type=checkbox].u-checkbox-2:checked,
+input[type=checkbox].u-checkbox-2:checked+ label:before  {
+    width: 18px;
+    height: 18px;
+    background: url('../../img/checkbox-checked1.png');
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+}
+
+/*单选按钮*/
+label input[type=radio].u-radio-1,
+input[type=radio].u-radio-1 + label:before {
+	width: 15px;
+    height: 15px;
+    background: url('../../img/radio1.png');
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+}
+label input[type=radio].u-radio-1:checked,
+input[type=radio].u-radio-1:checked+ label:before {
+	width: 15px;
+    height: 15px;
+    background: url('../../img/radio-checkbox1.png');
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+}
+
+label input[type=radio].u-radio-2,
+input[type=radio].u-radio-2 + label:before {
+	width: 18px;
+    height: 18px;
+    background: url('../../img/radio1.png');
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+}
+label input[type=radio].u-radio-2:checked,
+input[type=radio].u-radio-2:checked+ label:before {
+	width: 18px;
+    height: 18px;
+    background: url('../../img/radio-checkbox1.png');
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+}
+
+/*table head组件*/
+.u-nav{
+    border-bottom: 1px solid #d9e0e6;
+    border-left: 1px solid #d9e0e6;
+    height: 32px;
+    width: 100%;
+}
+.u-nav>span{
+    padding: 0px 15px;
+    height: 32px;
+    line-height: 32px;
+    display: block;
+    float: left;
+    border-right: 1px solid #d9e0e6;
+    border-top: 1px solid #d9e0e6;
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: -1px;
+}
+.u-nav>span.active{
+    background:#31aaff;
+    color: #ffffff;
+    border-color:#31aaff !important;
+    position: relative;
+    z-index: 99;
+    margin-right: -1px;
+}
+
+/*text文本框控件*/
+span>input[type=text],span>input[type=password],.textarea>textarea{
+    height: 24px;
+    border: 1px solid #d9e0e6;
+    color: #484848;
+    padding:0px 8px;
+    font-size: 12px;
+    outline:none;
+}
+.textarea>span{
+    display:block;
+    vetical-align:top;
+    float: left;
+    margin-left: 4px;
+
+}
+.input-260{
+    width: 250px;
+}
+.textarea-1{
+    height: 100px  !important;
+    width: 250px;
+}
+
+/*button按钮控件*/
+button{
+    padding:0px 17px;
+    height: 27px;
+    line-height: 27px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.btn-border{
+    border: 1px solid #d9e0e6 !important;
+    color: #484848;
+    background: none;
+}
+.btn-blue{
+    background:#31AAFF;
+    color: #ffffff;
+}
+.btn-red{
+    background:#F7587A;
+    color:#ffffff;
+}
+
+button.button:active{
+    opacity: 0.6;
+}

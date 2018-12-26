@@ -1,0 +1,84 @@
+.home-page-inner {
+	height: 50px;
+	padding-top: 13px;
+	padding-left: 192px;
+	padding-right: 20px;
+	border-right: 1px solid #F4F4F4;
+}
+
+.home-page-inner img {
+	width: 24px;
+	height: 24px;
+}
+
+.breadcrumb {
+	padding: 14px 15px;
+	margin-bottom: 0px;
+	list-style: outside none none;
+	background-color: #FFF;
+	border-radius: 0px;
+}
+
+.breadcrumb a {
+	color: #31AAFF;
+}
+
+.add-result-input-mo {
+	height: 30px;
+	margin-top: 8px;
+	width: 100%;
+	float: left;
+}
+
+.delete-icon-mo {
+	height: 16px;
+	position: absolute;
+	top: 0;
+	width: 16px;
+}
+
+.group-radio-title-custom, .group-checkbox-title-custom {
+	display: table-cell;
+	vertical-align: top;
+	padding-top: 2px;
+}
+
+.group-radio-content-custom, .group-checkbox-content-custom {
+	display: table-cell;
+}
+
+.input-inline {
+	display: inline-block;
+}
+
+.form-control .input-inline {
+	background-color: #fff;
+}
+
+/* scroll top */
+.scroll-top{
+	position: fixed;
+	bottom: 100px;
+	right: 15px;
+	width: 50px;
+	height: 50px;
+	opacity: 0.3;
+	z-index: 1000;
+	display: none;
+	background: url('../img/icon-backtotop.png');
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+}
+.scroll-top:hover{
+	opacity: 0.7;
+	cursor: pointer;
+}
+.input-width-310
+{
+	min-width:362px !important;
+	margin-bottom:0px;
+}
+#specialCareRecordForm .dropdown select{
+	background-position: 100px 10px;
+	width: 120px;
+}

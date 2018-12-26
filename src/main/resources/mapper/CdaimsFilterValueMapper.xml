@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hd.cdaims.dao.mapper.CdaimsFilterValueMapper">
+  <resultMap id="BaseResultMap" type="com.hd.cdaims.dao.model.CdaimsFilterValue">
+    <!--
+      WARNING - @mbggenerated, do not modify!
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="fk_filter_rule_id" jdbcType="BIGINT" property="fkFilterRuleId" />
+    <result column="item_name" jdbcType="VARCHAR" property="itemName" />
+    <result column="item_code" jdbcType="VARCHAR" property="itemCode" />
+    <result column="item_filter" jdbcType="VARCHAR" property="itemFilter" />
+    <result column="item_value" jdbcType="VARCHAR" property="itemValue" />
+    <result column="fk_tenant_id" jdbcType="INTEGER" property="fkTenantId" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="create_user_id" jdbcType="BIGINT" property="createUserId" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="update_user_id" jdbcType="BIGINT" property="updateUserId" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbggenerated, do not modify!
+    -->
+    id, fk_filter_rule_id, item_name, item_code, item_filter, item_value, fk_tenant_id, 
+    create_time, create_user_id, update_time, update_user_id
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    <!--
+      WARNING - @mbggenerated, do not modify!
+    -->
+    select 
+    <include refid="Base_Column_List" />
+    from cdaims_filter_value
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    <!--
+      WARNING - @mbggenerated, do not modify!
+    -->
+    delete from cdaims_filter_value
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.hd.cdaims.dao.model.CdaimsFilterValue">
+    <!--
+      WARNING - @mbggenerated, do not modify!
+    -->
+    insert into cdaims_filter_value (id, fk_filter_rule_id, item_name, 
+      item_code, item_filter, item_value, 
+      fk_tenant_id, create_time, create_user_id, 
+      update_time, update_user_id)
+    values (#{id,jdbcType=BIGINT}, #{fkFilterRuleId,jdbcType=BIGINT}, #{itemName,jdbcType=VARCHAR}, 
+      #{itemCode,jdbcType=VARCHAR}, #{itemFilter,jdbcType=VARCHAR}, #{itemValue,jdbcType=VARCHAR}, 
+      #{fkTenantId,jdbcType=INTEGER}, #{createTime,jdbcType=TIMESTAMP}, #{createUserId,jdbcType=BIGINT}, 
+      #{updateTime,jdbcType=TIMESTAMP}, #{updateUserId,jdbcType=BIGINT})
+  </insert>
+  <insert id="insertSelective" parameterType="com.hd.cdaims.dao.model.CdaimsFilterValue">
+    <!--
+      WARNING - @mbggenerated, do not modify!
+    -->
+    insert into cdaims_filter_value
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="fkFilterRuleId != null">
+        fk_filter_rule_id,
+      </if>
+      <if test="itemName != null">
+        item_name,
+      </if>
+      <if test="itemCode != null">
+        item_code,
+      </if>
+      <if test="itemFilter != null">
+        item_filter,
+      </if>
+      <if test="itemValue != null">
+        item_value,
+      </if>
+      <if test="fkTenantId != null">
+        fk_tenant_id,
+      </if>
+      <if test="createTime != null">
+        create_time,
+      </if>
+      <if test="createUserId != null">
+        create_user_id,
+      </if>
+      <if test="updateTime != null">
+        update_time,
+      </if>
+      <if test="updateUserId != null">
+        update_user_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="fkFilterRuleId != null">
+        #{fkFilterRuleId,jdbcType=BIGINT},
+      </if>
+      <if test="itemName != null">
+        #{itemName,jdbcType=VARCHAR},
+      </if>
+      <if test="itemCode != null">
+        #{itemCode,jdbcType=VARCHAR},
+      </if>
+      <if test="itemFilter != null">
+        #{itemFilter,jdbcType=VARCHAR},
+      </if>
+      <if test="itemValue != null">
+        #{itemValue,jdbcType=VARCHAR},
+      </if>
+      <if test="fkTenantId != null">
+        #{fkTenantId,jdbcType=INTEGER},
+      </if>
+      <if test="createTime != null">
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="createUserId != null">
+        #{createUserId,jdbcType=BIGINT},
+      </if>
+      <if test="updateTime != null">
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateUserId != null">
+        #{updateUserId,jdbcType=BIGINT},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.hd.cdaims.dao.model.CdaimsFilterValue">
+    <!--
+      WARNING - @mbggenerated, do not modify!
+    -->
+    update cdaims_filter_value
+    <set>
+      <if test="fkFilterRuleId != null">
+        fk_filter_rule_id = #{fkFilterRuleId,jdbcType=BIGINT},
+      </if>
+      <if test="itemName != null">
+        item_name = #{itemName,jdbcType=VARCHAR},
+      </if>
+      <if test="itemCode != null">
+        item_code = #{itemCode,jdbcType=VARCHAR},
+      </if>
+      <if test="itemFilter != null">
+        item_filter = #{itemFilter,jdbcType=VARCHAR},
+      </if>
+      <if test="itemValue != null">
+        item_value = #{itemValue,jdbcType=VARCHAR},
+      </if>
+      <if test="fkTenantId != null">
+        fk_tenant_id = #{fkTenantId,jdbcType=INTEGER},
+      </if>
+      <if test="createTime != null">
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="createUserId != null">
+        create_user_id = #{createUserId,jdbcType=BIGINT},
+      </if>
+      <if test="updateTime != null">
+        update_time = #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateUserId != null">
+        update_user_id = #{updateUserId,jdbcType=BIGINT},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.hd.cdaims.dao.model.CdaimsFilterValue">
+    <!--
+      WARNING - @mbggenerated, do not modify!
+    -->
+    update cdaims_filter_value
+    set fk_filter_rule_id = #{fkFilterRuleId,jdbcType=BIGINT},
+      item_name = #{itemName,jdbcType=VARCHAR},
+      item_code = #{itemCode,jdbcType=VARCHAR},
+      item_filter = #{itemFilter,jdbcType=VARCHAR},
+      item_value = #{itemValue,jdbcType=VARCHAR},
+      fk_tenant_id = #{fkTenantId,jdbcType=INTEGER},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      create_user_id = #{createUserId,jdbcType=BIGINT},
+      update_time = #{updateTime,jdbcType=TIMESTAMP},
+      update_user_id = #{updateUserId,jdbcType=BIGINT}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <!-- 自定义 -->
+  <delete id="deleteByFkFilterRuleId" parameterType="java.lang.Long">    
+    delete from cdaims_filter_value
+    where fk_filter_rule_id = #{fkFilterRuleId,jdbcType=BIGINT}
+  </delete>
+  
+  <select id="listByFkFilterRuleId" parameterType="java.lang.Long" resultMap="BaseResultMap">    
+    select 
+    <include refid="Base_Column_List" />
+    from cdaims_filter_value
+    where fk_filter_rule_id = #{fkFilterRuleId,jdbcType=BIGINT}
+  </select>  
+</mapper>

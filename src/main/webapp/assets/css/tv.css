@@ -1,0 +1,194 @@
+body {
+    font-family:"Helvetica Neue","Microsoft YaHei", Helvetica, Arial, "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Lantinghei SC", "Microsoft YaHei", "PingFang SC", "Wenquanyi Micro Hei", "ST Heiti", sans-serif;
+    font-size: 32px;
+    color: #fff;
+    background: #3f5776;
+    letter-spacing: 2px;
+}
+
+body.t2 {
+    background: #dcf1f6;
+    color: #251c1c;
+    padding-top: 0;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 0px;
+    border-top: 1px solid #2e4360;
+    vertical-align: middle;
+}
+
+.t2 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    border-top: 0;
+}
+
+.table>thead>tr>th {
+    vertical-align: middle;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+th {
+    text-align: center;
+    height: 68px;
+    font-weight: normal;
+}
+
+.fill-parent {
+    width: 100%;
+    height: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.logo {
+    float: left;
+    width: auto;
+    height: 80px;
+    margin-top: -5px;
+}
+
+.bar {
+    width: 100%;
+    height: 100px;
+    padding: 15px 0px;
+}
+
+.title {
+    width: 332px;
+    font-size: 43px;
+    line-height: 68px;
+    letter-spacing: 12px;
+}
+
+.title-right {
+    position: absolute;
+    font-size: 36px;
+    right: 16px;
+    top: 28px;
+    letter-spacing: 3px;
+}
+
+.bar.gradient {
+    background: -moz-linear-gradient(top, #30435e,#263a56);
+    background: -webkit-linear-gradient(top, #30435e,#263a56);
+    background: -o-linear-gradient(top, #30435e,#263a56);
+    background: -ms-linear-gradient(top, #30435e,#263a56);
+    background: linear-gradient(top, #30435e,#263a56);
+}
+
+.t2 .bar.gradient {
+    background: #31aaff;
+}
+
+.t2 .bar.gradient span {
+    color: #fff;
+}
+
+.table > thead {
+    background: #324866;
+}
+
+.t2 .table > thead {
+    background: #d9eef4;
+}
+
+.table > tbody > tr > td:nth-child(3n),
+.table > thead > tr > th:nth-child(3n) {
+    border-right: 4px solid #2e4360;
+}
+
+.t2 .table > tbody > tr > td:nth-child(3n),
+.t2 .table > thead > tr > th:nth-child(3n) {
+    border-right: 4px solid #fff;
+}
+
+.table > thead > tr > th {
+    font-size: 32px;
+    color: rgba(255,255,255,.5);
+}
+.t2 .table > thead > tr > th {
+    color: rgba(37,28,28,.5);
+}
+
+.table > tbody > tr > td {
+    font-size: 38px;
+    text-align: center;
+    height: 86px;
+    /*height: 71px;*/
+}
+
+.table > tbody > tr:last-child {
+    border-bottom: 1px solid #2e4360;
+}
+
+.t2 .table > tbody > tr:last-child {
+    border-bottom: 0;
+}
+
+.table > tbody > tr:nth-child(odd) {
+    background: #3b5271;
+}
+
+.t2 .table > tbody > tr:nth-child(odd) {
+    background: #f2fcff;
+}
+
+.table > tbody > tr > td.empty {
+    color: rgba(255,255,255,.5);
+}
+
+.t2 .table > tbody > tr > td.empty {
+    color: rgba(37,28,28,.3);
+}
+
+.bg2 {
+    background: #217c93;
+}
+
+.t2 .bg2 {
+    background: #ffc4cf;
+}
+
+.bg3 {
+    background: #147189;
+}
+
+.t2 .bg3 {
+    background: #f7b5c1;
+}
+
+.notice {
+    width: 100%;
+    height: 68px;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    background: #f24562;
+}
+
+.company {
+    position: fixed;
+    bottom: 2px;
+    width: 558px;
+    height: 48px;
+    left: 50%;
+    margin-left: -238px;
+    background: url('../img/company.png');
+    background-repeat: no-repeat;
+    background-size: 558px 48px;
+}
+
+.t2 .company {
+    background: url('../img/company2.png');
+    background-repeat: no-repeat;
+    background-size: 558px 48px;
+}
+
+.notice > marquee {
+    display: inline-block;
+    font-size: 34px;
+    line-height: 63px;
+}

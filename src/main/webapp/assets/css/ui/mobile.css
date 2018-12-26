@@ -1,0 +1,92 @@
+
+/*透析区样式*/
+
+/*模块m*/
+
+/*组件u*/
+.u-img-4-19{
+	height:22px;
+	width:4px;
+	background:url('../../img/ui/more.png') no-repeat;
+	background-size: 100%;
+}
+.u-img-25{
+	height:25px;
+	width:25px;
+}
+.follow{
+	background:url('../../img/ui/follow.png') no-repeat;
+	background-size: 100%;
+}
+.abnormal{
+	background: url('../../img/ui/abnormal.png') no-repeat;
+	background-size: 100%;
+}
+.arrearage{
+	background: url('../../img/ui/arrearage.png') no-repeat;
+     background-size: 100%;
+}
+.hospitalized{
+	background: url('../../img/ui/hospitalized.png') no-repeat;
+	background-size: 100%;
+}
+.u-img-50{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    overflow:hidden;
+    background:url('../../img/avatar2.png') no-repeat;
+    background-size: 100%;
+}
+.u-span-black{
+	color:black;
+}
+.u-btn-30{
+	height:30px;
+	line-height: 28px;
+	padding:0px 13px;
+	border:1px solid #f5f7f9;
+}
+.u-btn-38{
+	height:38px;
+	line-height: 36px;
+	border:1px solid #f5f7f9;
+}
+.u-btn-15-3{
+	padding:1.5px 7px;
+}
+.u-leftslide,.u-rightslide{
+	height:48px;
+	width:48px;
+	position: absolute;
+	top:50%;
+	margin-top: -24px;
+}
+.u-leftslide{
+	background: url('../../img/ui/leftslide.png');
+	left: 40px;
+}
+.u-rightslide{
+	background: url('../../img/ui/rightslide.png');
+	right: 40px;
+}
+.u-input3{
+    height:38px;
+    width:142px;
+    background:none;
+    border:1px solid #D9E0E6;
+    outline:medium;
+}
+.u-shift{
+	display:inline-block;
+	height:37px;
+	width:125px;
+	text-align:center;
+	font-size:17px;
+}
+.u-tab-385{
+	width:385px;
+	height:39px;
+	line-height:37px;
+}
+/*透析区样式*/

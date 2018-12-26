@@ -1,0 +1,314 @@
+*{
+    font-family: '宋体';
+    color: #000000;
+}
+
+[class*=" u-"],[class^="u-"] {
+    font-family: '宋体' !important;
+    color: #000000;
+}
+
+.u-checkbox > span {
+    border: 1px solid #000000;
+    border-radius: 0;
+    height: 10px;
+    width: 10px;
+    top: 1px;
+    margin-right: 6px;
+}
+.ml-6{
+    margin-left: -6px;
+}
+ #xyjhTable .ml-6{
+    margin-left: 6px;
+ }
+.u-checkbox > span.icon-checkbox:before {
+    color: #000000;
+    left: 0px;
+    top: -2px;
+}
+
+.u-checkbox > input[type=checkbox]:checked + span {
+    background: #ffffff;
+    border: 1px solid #000000;
+}
+
+.u-list-text .left {
+    width: 72px;
+    text-align: left;
+}
+
+.u-list-text .right {
+    width: calc(100% - 72px);
+}
+
+.myml-28{
+    margin-left: -28px;
+}
+.w-5{
+    width: 5%;
+}
+.w-55{
+    width: 5.5%;
+}
+.w-6{
+    width: 6%;
+}
+.w-7{
+    width: 7%;
+}
+.w-85{
+    width: 10%;
+}
+.mr-100 {
+    margin-right: 100px;
+}
+
+
+input[type=text]:focus,
+input[type=password]:focus,
+textarea:focus {
+    box-shadow: 0px 0px 0px #31AAFF !important;
+    border-color: #484848 !important;
+}
+.pl-92{
+    padding-left: 92px;
+}
+ #xyjhTable .u-table.u-table-bordered > tbody > tr > td {
+    border-right: 1px solid #000;
+    color: #000;
+}
+
+#xyjhTable .u-table > tbody > tr {
+    border-top: 1px solid #000;
+}
+#xyjhTable .botom-border-65{
+    width: 650px !important;
+}
+#xyjhTable .botom-border-30{
+    width: 300px !important;
+}
+#xyjhTable .botom-border-17{
+    width: 175px !important;
+}
+#xyjhTable .botom-border-22{
+    width: 222px !important;
+}
+#xyjhTable .botom-border-12{
+    width: 120px !important;
+}
+#xyjhTable .botom-border-6{
+    width: 60px !important;
+}
+#lsyz .u-table.u-table-bordered > thead > tr > th, .u-table.u-table-bordered > tbody > tr > td {
+    border-right: 1px solid #000;
+}
+#lsyz .u-table > thead > tr{
+    border-bottom: 1px solid #000;
+}
+#lsyz .u-table > tbody > tr {
+    border-top: 1px solid #000;
+}
+@media print{
+        * {
+            font-family: '宋体';
+            color: #000000;
+            font-size: 8px;
+        }
+        /* 血液净化 */
+        #xyjhTable .ml-14{
+            margin-left: 12px;
+        }
+        #xyjhTable .mt-20{
+            margin-top: 10px;
+        }
+        #xyjhTable .mt-16{
+            margin-top: 10px;
+        }
+        #xyjhTable .mt-8{
+            margin-top: 2px;
+        }
+        #xyjhTable .mt-40{
+            margin-top: 20px;
+        }
+        #xyjhTable .mt-4{
+            margin-top: 0;
+        }
+        #xyjhTable .u-xt-1{
+            width: 9%;
+        }
+        #xyjhTable .u-xt-11{
+             width: 91%;
+        }
+        #xyjhTable .botom-border{
+            width: 70px !important;
+        }
+        #xyjhTable .botom-border-65{
+            width: 500px !important;
+        }
+        #xyjhTable .botom-border-30{
+            width: 280px !important;
+        }
+        #xyjhTable .botom-border-17{
+            width: 145px !important;
+        }
+        #xyjhTable .botom-border-22{
+            width: 190px !important;
+        }
+        #xyjhTable .botom-border-12{
+            width: 100px !important;
+        }
+        #xyjhTable .botom-border-6{
+            width: 50px !important;
+        }
+        #xyjhTable .ml-42{
+            margin-left: 36px;
+        }
+        #xyjhTable .mt-12{
+            margin-top: 6px;
+        }
+        .u-list-text {
+            min-height: 20px;
+            height: 20px;
+            line-height: 20px;
+        }
+        .u-table.tableOne > thead > tr > th{
+        line-height: 15px;
+    }
+    .notprint{
+        display: none;
+    }
+        .textRow{
+            line-height: 20px;
+            border-bottom: 1px solid #000;
+            color: #000;
+            font-size: 8px;
+        }
+        .h-75{
+            height: 65px;
+            letter-spacing: 0;
+            word-break: break-all;
+            word-wrap: break-word;
+        }
+        .pl-92{
+        padding-top: 6px;
+    }
+        .u-list-text .left {
+            min-height: 20px;
+            height: 20px;
+            line-height: 20px;
+            text-align: left;
+        }
+
+        .u-list-text .right {
+            min-height: 20px;
+            height: 20px;
+            line-height: 20px;
+        }
+
+        .u-checkbox {
+            margin-right: 4px;
+            min-height: 20px;
+            height: 20px;
+            line-height: 20px;
+        }
+
+        .bc-f2 {
+            background-color: #dde2e6 !important;
+            -webkit-print-color-adjust: exact;
+        }
+
+        .m-20 {
+            margin: 0;
+        }
+
+        .box-shadow-d9 {
+            box-shadow: none;
+        }
+
+        .border-gray {
+            border: none;
+        }
+        .mt-10{
+            margin-top: 4px;
+        }
+        .mt-12 {
+            margin-top: 2px;
+        }
+
+        .mt-18 {
+            margin-top: 4px;
+        }
+        .mt-22{
+            margin-top: 8px;
+        }
+        .mt-28{
+            margin-top: 6px;
+        }
+        .print-layout {
+            width: 100%;
+            height: 100%;
+            padding: 0px;
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+
+        .mr-100{
+            margin-right: 50px;
+        }
+
+        .h-26 {
+            height: 22px;
+            line-height: 22px;
+        }
+
+        .isshow {
+            display: none;
+        }
+        .pb-22{
+            padding-bottom: 21px;
+        }
+        .mt-50 {
+            margin-top: 50px;
+        }
+
+        .ml-44{
+            margin-left: -44px !important;
+        }
+
+        .myml-34{
+            margin-left: -32px !important;
+        }
+        .u-table {
+          width: 100%;
+          color: #000000;
+          margin: 0 auto;
+          text-align: left;
+          font-size: 8px;
+        border-right: 1px solid #000;}
+        table th{
+            background-color: #dde2e6 !important;
+            -webkit-print-color-adjust: exact;
+        }
+        td,th{
+            font-family: '宋体' !important;
+            font-size: 8px;
+             box-sizing: border-box;
+            border: 1px solid #000000;
+        }
+        .u-table.u-table-bordered > thead > tr > th, .u-table.u-table-bordered > tbody > tr > td {
+        border-right: 1px solid #000;
+        font-size: 8px;
+        height: 28px;
+        padding: 0 2px;
+        }
+
+        input[type=text]{
+            min-height: 20px;
+            line-height: 20px;
+        }
+        .u-table > tbody > tr > td,.u-table > tbody > tr > td ｛
+            padding:0 2px;
+            line-height:0;
+        }
+    }
