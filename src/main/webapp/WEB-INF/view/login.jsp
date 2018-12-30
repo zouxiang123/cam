@@ -56,7 +56,7 @@
     </div>
     <div class="loginContent text-center" id="login">
         <div class="fs-28 fc-30" style="margin-top: 8%;">${tenantName }</div>
-        <div class="fs-18 fc-30" style="margin-top: 3%;">学透通®慢病智能系统</div>
+        <div class="fs-18 fc-30" style="margin-top: 3%;">慢病智能管理系统</div>
         <form action="${ctx }/login.shtml" onsubmit="return login.validate();" method="post" id="loginForm">
             <input type="hidden" name="isloginSubmit" value="true" /> 
             <input type="hidden" name="redirectUrl" value="${redirectUrl }" /> 

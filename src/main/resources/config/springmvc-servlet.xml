@@ -23,8 +23,9 @@
     <task:annotation-driven/>
 	<!--自动扫描com.xtt.[module].*.controller 包下的@Controller标注的类控制器类 -->
 	<context:component-scan base-package="com.xtt.*.*.controller" />
+    <context:component-scan base-package="com.hd.*.*.controller" />
 	<!--自动扫描com.xtt.[module].*.job 包下的@Component标注的类控制器类 -->
-	<context:component-scan base-package="com.hd.*.*.controller" />
+	<context:component-scan base-package="com.hd.*.*.job" />
 	
 	<!--对模型视图名称的解析，在请求时模型视图名称添加前后缀 -->
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
